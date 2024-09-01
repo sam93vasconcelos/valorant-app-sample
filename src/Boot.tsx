@@ -32,7 +32,7 @@ const router = createBrowserRouter([
       },
     ],
   },
-]);
+], { basename: '/valorant-app-sample/' });
 
 function Boot() {
   return (
